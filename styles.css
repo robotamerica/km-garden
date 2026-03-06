@@ -8,7 +8,7 @@
     --accent: #eeb480;
 
 
-    --font-body: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    --font-body: "IBM Plex Sans", system-ui, -apple-system, "Apple Color Emoji" Segoe UI, Roboto, Arial, sans-serif;
     --font-mono: "IBM Plex Mono", "Lucida Console", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     --font-accent: "Bytesized";
     --font-flourish: "YarnDings", cursive;
@@ -213,7 +213,7 @@
     font-size: 2.rem;
     letter-spacing: .2px;
     color: var(--link);
-    font-family: var(--font-accent), var(--font-mono), var(--font-body);
+    font-family: var(--font-accent);
     display: inline-flex;
     align-items: baseline;
     gap: 10px;
@@ -684,4 +684,53 @@
 
    .emoji-vis{
     filter: drop-shadow(0 0 6px rgba(255, 255, 255, .80));
+  }
+
+    /* =========================
+   GUESTBOOK FRAME
+   ========================= */
+
+   .guestbook{
+    border: var(--line);
+    background: repeating-linear-gradient(
+      -45deg,
+      rgba(23,39,19,.85),
+      rgba(23,39,19,.85) 4px,
+      rgba(23,39,19,.95) 4px,
+      rgba(23,39,19,.95) 5px
+    );
+    box-shadow: 3px 3px 0 rgba(23,39,19,.30);
+    padding: 12px;
+  }
+  
+  .guestbook-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: .88rem;
+    color: var(--link);
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: var(--line);
+  }
+  
+  .guestbook-title a{
+    font-size: .80rem;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    padding: 1px 8px;
+  }
+  
+  .guestbook-title a:hover{
+    background: var(--accent);
+    color: var(--link);
+  }
+  
+  .guestbook iframe{
+    display: block;
+    border: var(--line);
+    width: 100%;
+    box-shadow: inset 2px 2px 0 rgba(245,236,194,.15);
   }
