@@ -20,12 +20,12 @@ not just green hosting, or greenwashing, but a different *logic* entirely.
 
 low-tech magazine's approach: dithered images reduce page weight; the site's background colour reflects current battery level. **the interface becomes a weather report**.
 
-this is the design principle worth carrying: let environmental conditions be legible in the system itself.
+this is a design principle worth carrying: let environmental conditions be legible in the system itself.
 
 ## overlap with sse
 
 [[soft-stack-ecology]] and the solarpunk web share ground:
-- small, repairable, local-first systems
+- small, repairable, and local-first systems
 - tools that improve livelihoods without extracting from them
 - **convivial technology** (in ivan illich's sense)
 
