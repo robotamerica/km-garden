@@ -734,3 +734,59 @@
     width: 100%;
     box-shadow: inset 2px 2px 0 rgba(245,236,194,.15);
   }
+
+    /* =========================
+   ZETTLE NOTES DESIGN
+   ========================= */
+
+  .tag-cloud{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .tag-chip{
+    font-family: var(--font-mono);
+    font-size: .82rem;
+    color: var(--text);
+    text-decoration: none;
+    border: var(--line);
+    padding: 2px 8px;
+    background: var(--paper);
+  }
+  
+  .tag-chip:hover{
+    background: var(--wash);
+    border-color: rgba(23,39,19,.40);
+  }
+  
+  .tag-count{
+    color: rgba(23,39,19,.50);
+    font-size: .78rem;
+  }
+  
+  .backlinks{
+    margin-top: 24px;
+    padding-top: 12px;
+    border-top: var(--line);
+  }
+  
+  .backlinks-title{
+    font-family: var(--font-mono);
+    font-size: .88rem;
+    margin: 0 0 8px 0;
+    color: rgba(23,39,19,.60);
+  }
+  
+  .note-date{
+    font-family: var(--font-mono);
+    font-size: .80rem;
+    color: rgba(23,39,19,.50);
+  }
+  
+  .broken-link{
+    font-family: var(--font-mono);
+    color: rgba(23,39,19,.40);
+    text-decoration: line-through;
+  }

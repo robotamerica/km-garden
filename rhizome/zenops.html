@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" data-mode="paper">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>zenops — km.garden</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#pane-a">skip to content</a>
+  <div class="site">
+    <aside class="pane nav" aria-label="site menu">
+  <header class="brand">
+    <div class="brand-mark" aria-hidden="true"></div>
+    <div class="brand-text">
+      <h1 class="brand-title">km.garden</h1>
+      <p class="brand-sub">notes • index • calm web</p>
+    </div>
+  </header>
+  <nav aria-label="sections">
+    <ul class="nav-links">
+    <li><a  href="../index.html">welcome</a></li>
+    <li><a  href="../weblog.html">weblog</a></li>
+    <li><a  href="../projects.html">projects</a></li>
+    <li><a  href="../clutter.html">clutter</a></li>
+    <li><a class="is-current"  href="index.html">rhizome</a></li>
+    <li><a  href="../webroll.html">webroll</a></li>
+  </ul>
+  </nav>
+  <footer class="nav-footer">
+    <p class="nav-meta">🍄‍🟫 km.</p>
+  </footer>
+</aside>
+    <main id="pane-a" class="pane panel" aria-label="center content">
+      <header class="pane-head">
+        <h2 class="pane-title">zenops</h2>
+        <p class="pane-sub">Mon Mar 09 2026 18:00:00 GMT-0600 (Central Standard Time) · <a href="tags/ops.html">ops</a> · <a href="tags/philosophy.html">philosophy</a> · <a href="tags/sse.html">sse</a></p>
+      </header>
+      <div class="prose">
+        <p>zenops is a personal and team operations framework built around one core idea: systems are living things to tend, not machines to optimize.</p>
+<p>it grew out of frustration with ops culture that treats infrastructure like a performance problem — always tuning, always scaling, always chasing uptime percentages. zenops is the opposite of that. it is slow, deliberate, and human.</p>
+<h2>principles</h2>
+<p><strong>tend, don&#39;t optimize.</strong> optimization implies a finish line. tending implies ongoing care. a garden is never &quot;optimized&quot; — it is watered, pruned, observed, adjusted. your systems deserve the same relationship.</p>
+<p><strong>boring is good.</strong> boring systems are predictable. predictable systems are trustworthy. trustworthy systems let you sleep. choose the dull tool that works over the exciting tool that might.</p>
+<p><strong>observable over clever.</strong> if you can&#39;t read what your system is doing at a glance, it is too clever. plain logs, clear handoffs, legible runbooks. a system that only its author understands is a liability.</p>
+<p><strong>deliberate pacing.</strong> not everything needs to happen now. a change that can wait until morning probably should. urgency is often a feeling, not a fact.</p>
+<p><strong>clear handoffs.</strong> whether handing off to a teammate or to your future self, leave the system in a state that requires no explanation. write the note. update the doc. close the loop.</p>
+<h2>in practice</h2>
+<p>on my own machines this looks like:</p>
+<ul>
+<li>flat dotfiles, commented and dated</li>
+<li>a single <code>~/bin/</code> for personal scripts, each one doing one thing</li>
+<li>a <span class="broken-link">[[zettelmind]]</span> for operational notes and runbooks</li>
+<li>git for everything, even config</li>
+<li>no daemons i don&#39;t understand</li>
+<li>hyprlock and hypridle tuned so the machine behaves predictably</li>
+</ul>
+<p>on a team it looks like:</p>
+<ul>
+<li>runbooks written at the time of the incident, not after</li>
+<li>on-call rotations that respect human time</li>
+<li>post-mortems that ask &quot;what did the system make easy to miss?&quot; not &quot;who made the mistake?&quot;</li>
+<li>deploys that are boring on purpose</li>
+</ul>
+<h2>roots</h2>
+<p>zenops sits inside the broader <span class="broken-link">[[soft-stack-ecology]]</span> framework alongside <span class="broken-link">[[tool-farming]]</span> and soft circuits. it is the ops expression of the same philosophy: care-driven, human-scale, repairable.</p>
+<p>the name is deliberate. zen not as aesthetic but as disposition — present, unhurried, attentive to what is actually there.</p>
+
+      </div>
+      
+    </main>
+    <aside class="pane panel secondary" aria-label="right content">
+  <header class="pane-head">
+    <h2 class="pane-title">rhizome</h2>
+    <p class="pane-sub">tags • connections</p>
+  </header>
+  <div class="prose">
+    <details open>
+      <summary>tags</summary>
+      <div class="tag-cloud">
+    <a class="tag-chip" href="tags/ops.html">ops <span class="tag-count">1</span></a>
+    <a class="tag-chip" href="tags/philosophy.html">philosophy <span class="tag-count">1</span></a>
+    <a class="tag-chip" href="tags/sse.html">sse <span class="tag-count">1</span></a>
+  </div>
+    </details>
+    <details>
+      <summary>about rhizome</summary>
+      <p class="small">a zettelkasten: small, atomic notes linked by concept not chronology. tends to spread sideways.</p>
+    </details>
+  </div>
+</aside>
+  </div>
+</body>
+</html>
