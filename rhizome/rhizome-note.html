@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="color-scheme" content="light" />
-  <title>zenops — km.garden</title>
+  <title>rhizome — km.garden</title>
   <link rel="icon" href="../assets/img/potato-sprout.png" type="image/png" />
   <link rel="stylesheet" href="../styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,49 +42,16 @@
 </aside>
     <main id="pane-a" class="pane panel" aria-label="center content">
       <header class="pane-head">
-        <h2 class="pane-title">zenops</h2>
-        <p class="pane-sub">Mon Mar 09 2026 18:00:00 GMT-0600 (Central Standard Time) · <a href="tags/ops.html">ops</a> · <a href="tags/philosophy.html">philosophy</a> · <a href="tags/sse.html">sse</a></p>
+        <h2 class="pane-title">rhizome</h2>
+        <p class="pane-sub">Mon Mar 09 2026 18:00:00 GMT-0600 (Central Standard Time) · <a href="tags/rhizome.html">rhizome</a> · <a href="tags/meta.html">meta</a> · <a href="tags/zettelkasten.html">zettelkasten</a> · <a href="tags/tools.html">tools</a></p>
       </header>
       <div class="prose">
-        <p>zenops is a personal and team operations framework built around one core idea: systems are living things to tend, not machines to optimize.</p>
-<p>it grew out of frustration with ops culture that treats infrastructure like a performance problem — always tuning, always scaling, always chasing uptime percentages. zenops is the opposite of that. it is slow, deliberate, and human.</p>
-<h2>principles</h2>
-<p><strong>tend, don&#39;t optimize.</strong> optimization implies a finish line. tending implies ongoing care. a garden is never &quot;optimized&quot; — it is watered, pruned, observed, adjusted. your systems deserve the same relationship.</p>
-<p><strong>boring is good.</strong> boring systems are predictable. predictable systems are trustworthy. trustworthy systems let you sleep. choose the dull tool that works over the exciting tool that might.</p>
-<p><strong>observable over clever.</strong> if you can&#39;t read what your system is doing at a glance, it is too clever. plain logs, clear handoffs, legible runbooks. a system that only its author understands is a liability.</p>
-<p><strong>deliberate pacing.</strong> not everything needs to happen now. a change that can wait until morning probably should. urgency is often a feeling, not a fact.</p>
-<p><strong>clear handoffs.</strong> whether handing off to a teammate or to your future self, leave the system in a state that requires no explanation. write the note. update the doc. close the loop.</p>
-<h2>in practice</h2>
-<p>on my own machines this looks like:</p>
-<ul>
-<li>flat dotfiles, commented and dated</li>
-<li>a single <code>~/bin/</code> for personal scripts, each one doing one thing</li>
-<li>a <a href="zettelmind.html">zettelmind</a> for operational notes and runbooks</li>
-<li>git for everything, even config</li>
-<li>no daemons i don&#39;t understand</li>
-<li>hyprlock and hypridle tuned so the machine behaves predictably</li>
-</ul>
-<p>on a team it looks like:</p>
-<ul>
-<li>runbooks written at the time of the incident, not after</li>
-<li>on-call rotations that respect human time</li>
-<li>post-mortems that ask &quot;what did the system make easy to miss?&quot; not &quot;who made the mistake?&quot;</li>
-<li>deploys that are boring on purpose</li>
-</ul>
-<h2>roots</h2>
-<p>zenops sits inside the broader <a href="soft-stack-ecology.html">soft stack ecology</a> framework alongside <a href="tool-farming.html">tool farming</a> and soft circuits. it is the ops expression of the same philosophy: care-driven, human-scale, repairable.</p>
-<p>the name is deliberate. zen not as aesthetic but as disposition — present, unhurried, attentive to what is actually there.</p>
+        <p>the zettelkasten section of <a href="digital-garden.html">digital garden</a>. notes organised by concept, not date — linked laterally, not hierarchically.</p>
+<p>named after deleuze + guattari&#39;s concept of the rhizome: a root system with no centre, no fixed entry point, spreading in all directions.</p>
+<p>built with <a href="zettelmind.html">zettelmind</a>, my dotmd wrapper, locally, published via a node build script to <code>kmsgarden.com/rhizome/</code>.</p>
 
       </div>
-      <div class="backlinks">
-        <h3 class="backlinks-title">linked from</h3>
-        <ul>
-          <li><a href="soft-circuits.html">soft circuits</a></li>
-          <li><a href="soft-stack-ecology.html">soft stack ecology</a></li>
-          <li><a href="tool-farming.html">tool farming</a></li>
-          <li><a href="zettelmind.html">zettelmind</a></li>
-        </ul>
-      </div>
+      
     </main>
     <aside class="pane panel secondary" aria-label="right content">
   <header class="pane-head">
