@@ -2,7 +2,7 @@
 id: rhizome-note
 title: rhizome
 date: 2026-03-10
-tags: [rhizome, meta, zettelkasten, tools]
+tags: [rhizome, digital-garden, zettelkasten, tools]
 links: [digital-garden, zettelmind, soft-stack-ecology]
 ---
 
