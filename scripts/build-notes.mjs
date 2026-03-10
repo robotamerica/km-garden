@@ -74,7 +74,7 @@ function brandNav(navHtml, depth='../'){
     <p class="nav-meta">welcome to my digital garden 🧑🏽‍🌾, please take a look around.</p>
   </section>
   <footer class="nav-footer">
-    <p class="nav-meta">🍄‍🟫 km. | html + css only 🛠️</p>
+    <p class="nav-meta"><span class="emoji-vis">🍄‍🟫 </span>km. | html + css only<span class="emoji-vis">🛠️</span></p>
   </footer>
 </aside>`;
 }
