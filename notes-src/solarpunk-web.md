@@ -8,15 +8,15 @@ links: [solarsocial, soft-stack-ecology, tool-farming]
 
 the solarpunk web is a loose constellation of practices, projects, and philosophies aimed at making the internet slower, smaller, and more ecologically honest.
 
-not just green hosting. a different *logic* entirely.
+not just green hosting, or greenwashing, but a different *logic* entirely.
 
-## anchors
+## my personal anchors
 
 - [solar low-tech magazine](https://solar.lowtechmagazine.com) — solar-powered server, dithered images, design as constraint. the canonical example of solar web practice.
-- [solarpunk almanac](https://spalmanac.surge.sh) - my own: curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. a small garden, not a feed.
-- [solar protocol](https://solarprotocol.net)
+- [solarpunk almanac](https://spalmanac.surge.sh) - my own curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. it is another plot in a small garden, not a feed.
+- [solar protocol](https://solarprotocol.net) - a network focused on energy and human-centred design.
 
-## design as ecological act
+## design as an ecological act
 
 low-tech magazine's approach: dithered images reduce page weight; the site's background colour reflects current battery level. **the interface becomes a weather report**.
 
@@ -29,9 +29,9 @@ this is the design principle worth carrying: let environmental conditions be leg
 - tools that improve livelihoods without extracting from them
 - **convivial technology** (in ivan illich's sense)
 
-the {s}low-tech arm of SSE is essentially solarpunk web practice applied to personal tooling.
+the {s}low-tech arm of sse is essentially solarpunk web practice applied to personal tooling.
 
-## further
+## further reading
 
 - [yunohost](https://yunohost.org) — self-hosting for humans
 
