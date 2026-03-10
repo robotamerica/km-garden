@@ -63,6 +63,19 @@
     outline: none;
     box-shadow: 0 0 0 3px rgba(242,173,120,.45);
   }
+
+  blockquote {
+    margin: 1em 0;
+    padding: 10px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--wash);
+    color: var(--text);
+    font-style: italic;
+  }
+  
+  blockquote p {
+    margin: 0;
+  }
   
   a{
     color: var(--link);
