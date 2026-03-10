@@ -18,12 +18,12 @@ function nav(current){
     ['../index.html','welcome'],
     ['../weblog.html','weblog'],
     ['../projects.html','projects'],
-    ['index.html','rhizome'],
     ['../clutter.html','clutter'],
+    ['index.html','rhizome'],
     ['../webroll.html','webroll'],
   ];
   return `<ul class="nav-links">
-    ${pages.map(([href,label])=>`<li><a${label===current?' class="is-current"':''} href="${href}">${label}</a></li>`).join('\n    ')}
+    ${pages.map(([href,label])=>`<li><a ${label===current?'class="is-current" ':''} href="${href}">${label}</a></li>`).join('\n    ')}
   </ul>`;
 }
 
@@ -32,12 +32,12 @@ function tagNav(current){
     ['../../index.html','welcome'],
     ['../../weblog.html','weblog'],
     ['../../projects.html','projects'],
-    ['index.html','rhizome'],
     ['../../clutter.html','clutter'],
+    ['../index.html','rhizome'],
     ['../../webroll.html','webroll'],
   ];
   return `<ul class="nav-links">
-    ${pages.map(([href,label])=>`<li><a${label===current?' class="is-current"':''} href="${href}">${label}</a></li>`).join('\n    ')}
+    ${pages.map(([href,label])=>`<li><a ${label===current?'class="is-current" ':''} href="${href}">${label}</a></li>`).join('\n    ')}
   </ul>`;
 }
 
@@ -48,31 +48,33 @@ function head(title, depth=''){
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="color-scheme" content="light" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/potato-sprout.png">
   <title>${title} — km.garden</title>
+  <link rel="icon" href="${depth}../assets/img/potato-sprout.png" type="image/png" />
   <link rel="stylesheet" href="${depth}../styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
-</head>`;
+  </head>`;
 }
 
-function brandNav(navHtml){
+function brandNav(navHtml, depth='../'){
   return `<aside class="pane nav" aria-label="site menu">
   <header class="brand">
     <div class="brand-mark" aria-hidden="true"></div>
     <div class="brand-text">
-      <h1 class="brand-title">km.garden</h1>
+      <h1 class="brand-title">km.garden <img class="title-icon" src="${depth}assets/img/potato-sprout.png" alt="" aria-hidden="true"></h1>
       <p class="brand-sub">notes • index • calm web</p>
     </div>
   </header>
   <nav aria-label="sections">
     ${navHtml}
   </nav>
+  <section class="nav-block" aria-label="status">
+    <p class="nav-meta">welcome to my digital garden 🧑🏽‍🌾, please take a look around.</p>
+  </section>
   <footer class="nav-footer">
-    <p class="nav-meta">🍄‍🟫 km.</p>
+    <p class="nav-meta">🍄‍🟫 km. | html + css only 🛠️</p>
   </footer>
 </aside>`;
 }
@@ -185,7 +187,7 @@ allTags.forEach(t => {
 <body>
   <a class="skip-link" href="#pane-a">skip to content</a>
   <div class="site">
-    ${brandNav(tagNav('rhizome'))}
+    ${brandNav(tagNav('rhizome'), '../../')}
     <main id="pane-a" class="pane panel" aria-label="center content">
       <header class="pane-head">
         <h2 class="pane-title">${t}</h2>
