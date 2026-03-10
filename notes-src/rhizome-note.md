@@ -6,7 +6,7 @@ tags: [rhizome, meta, zettelkasten, tools]
 links: [digital-garden, zettelmind, soft-stack-ecology]
 ---
 
-the zettelkasten section of [[digital-garden]]. notes organised by concept, not date — linked laterally, not hierarchically.
+the zettelkasten section of [[digital-garden]]. notes organised by concept, not by date, linked laterally, not hierarchically.
 
 named after deleuze + guattari's concept of the rhizome: a root system with no centre, no fixed entry point, spreading in all directions.
 

@@ -12,7 +12,7 @@ it grew out of frustration with ops culture that treats infrastructure like a pe
 
 ## principles
 
-**tend, don't optimize.** optimization implies a finish line. tending implies ongoing care. a garden is never "optimized" — it is watered, pruned, observed, adjusted. your systems deserve the same relationship.
+**tend, don't optimize.** optimization implies a finish line. tending implies ongoing care. a garden is never "optimized": it is watered, pruned, observed, adjusted. your systems deserve the same relationship.
 
 **boring is good.** boring systems are predictable. predictable systems are trustworthy. trustworthy systems let you sleep. choose the dull tool that works over the exciting tool that might.
 
@@ -44,4 +44,4 @@ on a team it looks like:
 
 zenops sits inside the broader [[soft-stack-ecology]] framework alongside [[tool-farming]] and soft circuits. it is the ops expression of the same philosophy: care-driven, human-scale, repairable.
 
-the name is deliberate. zen not as aesthetic but as disposition — present, unhurried, attentive to what is actually there.
+the name is deliberate. zen not as aesthetic but as disposition: present, unhurried, and attentive to what is actually there.

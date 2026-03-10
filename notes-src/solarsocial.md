@@ -6,7 +6,7 @@ tags: [solarpunk, solar, slow-web, ecology, social-media, decentralisation, comm
 links: [soft-stack-ecology, tool-farming, solarpunk-web]
 ---
 
-solarsocial is a framework for thinking about media and networked communication through **solar logic** — slow, ambient, renewable, intermittent.
+solarsocial is a framework for thinking about media and networked communication through **solar logic**: slow, ambient, renewable, intermittent.
 
 it's not just about powering servers with sunlight. it's about designing systems with the cyclical rhythms of the planet in mind. presence over performance. intention over interaction.
 
@@ -24,9 +24,9 @@ a solarsocial approach is **seasonal**, **asynchronous**, and **gentle**.
 
 uptime becomes tidal. sunlight becomes a signal. if the sun's not shining, the site can nap. **embrace intermittence**.
 
-> "build something that goes offline sometimes. build something that listens to the sun."
+> build something that goes offline sometimes. build something that listens to the sun.
 
-this connects directly to [[soft-stack-ecology]] — systems as living things, not always-on machines. and to [[tool-farming]] — garden tools, not data centre tools.
+this connects directly to [[soft-stack-ecology]]: systems as living things, not always-on machines. and to [[tool-farming]]: garden tools, not data centre tools.
 
 ## in the wild
 

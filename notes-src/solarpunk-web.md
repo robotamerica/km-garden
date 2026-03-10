@@ -13,7 +13,7 @@ not just green hosting. a different *logic* entirely.
 ## anchors
 
 - [solar low-tech magazine](https://solar.lowtechmagazine.com) — solar-powered server, dithered images, design as constraint. the canonical example of solar web practice.
-- [solarpunk almanac](https://spalmanac.surge.sh) — km.'s own: curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. a small garden, not a feed.
+- [solarpunk almanac](https://spalmanac.surge.sh) - my own: curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. a small garden, not a feed.
 - [solar protocol](https://solarprotocol.net)
 
 ## design as ecological act
