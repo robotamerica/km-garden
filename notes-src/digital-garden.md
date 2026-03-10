@@ -1,6 +1,6 @@
 ---
-id: km-garden
-title: km.garden
+id: digital-garden
+title: digital garden
 date: 2026-03-10
 tags: [meta, garden, sse, tools]
 links: [soft-stack-ecology, rhizome, zettelmind]
