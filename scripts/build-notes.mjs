@@ -48,6 +48,7 @@ function head(title, depth=''){
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="color-scheme" content="light" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/potato-sprout.png">
   <title>${title} — km.garden</title>
   <link rel="stylesheet" href="${depth}../styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
