@@ -27,7 +27,7 @@ this is the design principle worth carrying: let environmental conditions be leg
 [[soft-stack-ecology]] and the solarpunk web share ground:
 - small, repairable, local-first systems
 - tools that improve livelihoods without extracting from them
-- **convivial technology** (in Illich's sense)
+- **convivial technology** (in ivan illich's sense)
 
 the {s}low-tech arm of SSE is essentially solarpunk web practice applied to personal tooling.
 
