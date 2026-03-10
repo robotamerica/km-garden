@@ -135,7 +135,7 @@ function rightPane(depth=''){
     </details>
     <details>
       <summary>about rhizome</summary>
-      <p class="small">a zettelkasten: small, atomic notes linked by concept not chronology. tends to spread sideways.</p>
+      <p class="small">a zettelkasten: small, atomic notes linked by concept not chronology tending to spread adventitiously and every-which-way.</p>
     </details>
   </div>
 </aside>`;
