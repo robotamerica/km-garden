@@ -8,6 +8,6 @@ links: [zenops, toolfarming]
 
 an umbrella framework for building and tending systems as living ecologies. questions oppressive tech; celebrates tools that improve livelihoods sustainably and convivially.
 
-four branches: [[zenops]], [[tool-farming]], [[soft circuits]], [[{s}lofi/{s}low-tech.]]
+four branches: [[zenops]], [[tool-farming]], [[soft-circuits]], [[lofi-low-tech.]]
 
 the guiding ethic: care over ambition. repair over replacement. human-scale over industrial-scale.

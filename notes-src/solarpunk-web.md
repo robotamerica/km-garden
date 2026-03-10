@@ -14,6 +14,7 @@ not just green hosting. a different *logic* entirely.
 
 - [solar low-tech magazine](https://solar.lowtechmagazine.com) — solar-powered server, dithered images, design as constraint. the canonical example of solar web practice.
 - [solarpunk almanac](https://spalmanac.surge.sh) — km.'s own: curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. a small garden, not a feed.
+- [solar protocol](https://solarprotocol.net)
 
 ## design as ecological act
 
@@ -32,8 +33,6 @@ the {s}low-tech arm of SSE is essentially solarpunk web practice applied to pers
 
 ## further
 
-- [solar protocol](https://solarprotocol.net)
-- [gemini protocol](https://gemini.circumlunar.space) — low-bandwidth, text-first alternative to HTTP
 - [yunohost](https://yunohost.org) — self-hosting for humans
 
 → see also: [[solarsocial]]

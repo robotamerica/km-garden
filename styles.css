@@ -10,7 +10,7 @@
 
     --font-body: "IBM Plex Sans", system-ui, -apple-system, "Apple Color Emoji" Segoe UI, Roboto, Arial, sans-serif;
     --font-mono: "IBM Plex Mono", "Lucida Console", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    --font-accent: "Bytesized";
+    --font-accent: "Bytesized", sans-serif;
   
     --nav-w: 280px;
     --side-w: 340px;

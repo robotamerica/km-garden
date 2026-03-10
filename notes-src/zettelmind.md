@@ -6,7 +6,7 @@ tags: [tools, nvim, zettelkasten]
 links: [zenops]
 ---
 
-a personalised dotmd.nvim zettelkasten environment. lives at `~/dotmd`, launches via `dotmd` alias.
+a personalised fork of [dotmd.nvim](https://neovimcraft.com/plugin/y3owk1n/dotmd.nvim/). lives accross my devices, launches via neovim alias.
 
 features: rainbow dashboard, journal, todos, inbox, telescope search, tag index, git sync, graph view, and garden publish for [[km-garden]] rhizome notes.
 

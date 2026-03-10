@@ -18,8 +18,8 @@ function nav(current){
     ['../index.html','welcome'],
     ['../weblog.html','weblog'],
     ['../projects.html','projects'],
-    ['../clutter.html','clutter'],
     ['index.html','rhizome'],
+    ['../clutter.html','clutter'],
     ['../webroll.html','webroll'],
   ];
   return `<ul class="nav-links">
@@ -32,8 +32,8 @@ function tagNav(current){
     ['../../index.html','welcome'],
     ['../../weblog.html','weblog'],
     ['../../projects.html','projects'],
+    ['index.html','rhizome'],
     ['../../clutter.html','clutter'],
-    ['../index.html','rhizome'],
     ['../../webroll.html','webroll'],
   ];
   return `<ul class="nav-links">
