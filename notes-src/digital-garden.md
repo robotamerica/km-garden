@@ -12,6 +12,6 @@ built in pure html + css. no js. no analytics. no tracking. hosted on github pag
 
 the garden has five sections: weblog (loose writing), projects (things being built), clutter (art, poetry, zines), rhizome (this zettelkasten), and webroll (links worth keeping).
 
-the whole thing is an expression of [[soft-stack-ecology]], built slowly, by hand, with care. [[zettelmind]] is the authoring layer; [[rhizome]] is where the notes surface publicly.
+the whole thing is an expression of [[soft-stack-ecology]], built slowly, by hand, with care. [[zettelmind]] is the authoring layer; [[rhizome-note]] is where the notes surface publicly.
 
 the garden is never finished. it composting and growing at the same time.
