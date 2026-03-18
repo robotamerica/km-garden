@@ -6,7 +6,6 @@ import { marked } from 'marked';
 const SRC = './notes-src';
 const OUT = './rhizome';
 const TAGS_OUT = './rhizome/tags';
-const SITE_ROOT = '..';
 
 mkdirSync(OUT, { recursive: true });
 mkdirSync(TAGS_OUT, { recursive: true });
@@ -54,7 +53,6 @@ function head(title, depth=''){
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
   </head>`;
 }
 
@@ -87,7 +85,6 @@ const notes = files.map(f => {
   return {
     id: data.id || slug(basename(f, '.md')),
     title: data.title || basename(f, '.md'),
-    date: data.date || '',
     tags: data.tags || [],
     links: data.links || [],
     body: content,
@@ -159,7 +156,7 @@ notes.forEach(n => {
     <main id="pane-a" class="pane panel" aria-label="center content">
       <header class="pane-head">
         <h2 class="pane-title">${n.title}</h2>
-        <p class="pane-sub">${n.date} · ${n.tags.map(t=>`<a href="tags/${t}.html">${t}</a>`).join(' · ')}</p>
+        <p class="pane-sub">${n.tags.map(t=>`<a href="tags/${t}.html">${t}</a>`).join(' · ')}</p>
       </header>
       <div class="prose">
         ${marked(linkedBody)}
@@ -195,7 +192,7 @@ allTags.forEach(t => {
       </header>
       <div class="prose">
         <ul>
-          ${tagged.map(n=>`<li><a href="../${n.id}.html">${n.title}</a> <span class="note-date">${n.date}</span></li>`).join('\n          ')}
+          ${tagged.map(n=>`<li><a href="../${n.id}.html">${n.title}</a></li>`).join('\n          ')}
         </ul>
       </div>
     </main>
@@ -207,6 +204,29 @@ allTags.forEach(t => {
   writeFileSync(join(TAGS_OUT, `${t}.html`), html);
   console.log(`✓ tags/${t}.html`);
 });
+
+// generate tags index
+const tagsIndex = `${head('tags', '../')}
+<body>
+  <a class="skip-link" href="#pane-a">skip to content</a>
+  <div class="site">
+    ${brandNav(tagNav('rhizome'), '../../')}
+    <main id="pane-a" class="pane panel" aria-label="center content">
+      <header class="pane-head">
+        <h2 class="pane-title">tags</h2>
+        <p class="pane-sub">${allTags.length} tags</p>
+      </header>
+      <div class="prose">
+        ${tagCloud('../')}
+      </div>
+    </main>
+    ${rightPane('../')}
+  </div>
+</body>
+</html>`;
+
+writeFileSync(join(TAGS_OUT, 'index.html'), tagsIndex);
+console.log('✓ tags/index.html');
 
 // generate index — organised by tag cluster
 const html = `${head('rhizome')}
@@ -228,7 +248,6 @@ const html = `${head('rhizome')}
             <a class="file-item" href="${n.id}.html">
               <span class="file-icon">⟐</span>
               <span class="file-name">${n.title}</span>
-              <span class="file-meta">${n.date}</span>
             </a>`).join('')}
           </div>
         </details>`).join('\n        ')}
