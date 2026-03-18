@@ -70,7 +70,7 @@ function brandNav(navHtml, depth='../'){
     ${navHtml}
   </nav>
   <section class="nav-block" aria-label="status">
-    <p class="nav-meta">welcome to my digital garden 🧑🏽‍🌾, please take a look around.</p>
+    <p class="nav-meta">welcome to my digital garden <span class="emoji-vis">🧑🏽‍🌾</span>, please take a look around.</p>
   </section>
   <footer class="nav-footer">
     <p class="nav-meta"><span class="emoji-vis">🍄‍🟫 </span>km. | html + css only<span class="emoji-vis">🛠️</span></p>
