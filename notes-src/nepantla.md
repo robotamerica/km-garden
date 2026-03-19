@@ -6,8 +6,8 @@ tags: [philosophy, ecology]
 links: [ecotonal-practice, situated-knowledge]
 ---
 
-nahuatl word for the space in between; neither here nor there. neither one thing nor another. gloria anzaldua names it as the site of transformation: the uncomfortable creative threshold where old frameworks have broken down and new ones haven't yet formed. not a failure state. where change is actually made.
+nahuatl word for the space in between, neither here nor there, neither one thing nor another. gloria anzaldua names it as the site of transformation: the uncomfortable creative threshold where old frameworks have broken down and new ones haven't yet formed. not a failure state. where change is actually made.
 
-the philosophical deepening of [[ecotonal-practice]]. the ecotone describes the productive boundary from outside, from ecology. nepantla names the lived experience of being in that boundary: the disorientation, the generativity, the refusal to resolve.
+the philosophical deepening of [[ecotonal-practice]]. the ecotone describes the productive boundary from outside, from ecology. nepantla names the lived experience of being in that boundary: the disorientation, the generativity, and the refusal to resolve.
 
-working across languages, disciplines, and geographies. geography/poetry, print/digital, mexico/canada, or spanish/english. none of these are binaries or contradictions to resolve. they are the in-between where the actual work lives.
+working across languages, disciplines, and geographies, geography/poetry, print/digital, mexico/canada, and spanish/english. none of these are contradictions i need to resolve. they are the in-between where my actual work lives. the map, the zine, the cli, and the garden: all made in the in-between.

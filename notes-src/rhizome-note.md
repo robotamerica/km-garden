@@ -6,8 +6,8 @@ tags: [rhizome, digital-garden, zettelkasten, tools]
 links: [digital-garden, zettelmind, soft-stack-ecology]
 ---
 
-the rhizome is the zettelkasten section of [[digital-garden]]. notes organised by concept, not by date, linked laterally, not hierarchically.
+the zettelkasten section of [[digital-garden]]. notes organised by concept, not by date, linked laterally and not hierarchically.
 
-it is named after deleuze + guattari's concept of the rhizome: a root system with no centre, no fixed entry point, spreading in all directions.
+named after deleuze and guattari's concept of the rhizome: a root system with no centre, no fixed entry point, spreading in all directions.
 
-built with [[zettelmind]], my dotmd wrapper, locally, and then published via a node build script to `kmsgarden.com/rhizome/`.
+built with [[zettelmind]] locally, then published via a node build script to <a href="https://kmsgarden.com/rhizome/" target="_blank" rel="noopener">kmsgarden.com/rhizome/</a>

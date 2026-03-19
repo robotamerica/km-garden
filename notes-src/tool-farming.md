@@ -1,13 +1,17 @@
 ---
 id: tool-farming
 title: tool farming
-date: 2026-03-10
-tags: [philosophy, sse, tools]
-links: [soft-stack-ecology, zenops]
+date: 2026-03-18
+tags: [sse, philosophy, tools]
+links: [soft-stack-ecology, zenops, illich, the-plot]
 ---
 
-a philosophy for building personal and shared tools. inspired by farming and permaculture where you grow what you need, tend to what you have, and share what you can.
+i make tools the way a farmer makes crops, with attention to the full cycle and not just the harvest. does this tool need to exist? what does it consume? what happens when it's no longer needed? can it be composted, repurposed, forked, or let go without leaving damage?
 
-tools should be regenerative, that way they give back more than they cost. they should be joyful to use, repairable when broken, and owned, not rented or borrowed.
+tools are not products. a product has a market, a roadmap, and a growth metric. my tools have a user, often just me, and a job. when the job changes, the tool changes or retires. no obligation to scale it.
 
-tool farming is small part of [[soft-stack-ecology]].
+permatechnic framing. [[boom]] is a permatechnic tool. it uses things that already exist, namely mpv, yt-dlp, and fzf, composted into something small and personal. no server, no account, no update nag.
+
+joyful tools. a tool i enjoy using is a tool i will maintain. aesthetics, tactility, and the small pleasure of a well-named function are not decorations.
+
+tool farming is part of [[soft-stack-ecology]], the production philosophy that asks whether a tool needs to exist before building it.

@@ -43,43 +43,26 @@
     <main id="pane-a" class="pane panel" aria-label="center content">
       <header class="pane-head">
         <h2 class="pane-title">zenops</h2>
-        <p class="pane-sub"><a href="tags/ops.html">ops</a> · <a href="tags/philosophy.html">philosophy</a> · <a href="tags/sse.html">sse</a></p>
+        <p class="pane-sub"><a href="tags/sse.html">sse</a> · <a href="tags/philosophy.html">philosophy</a> · <a href="tags/ops.html">ops</a> · <a href="tags/tools.html">tools</a></p>
       </header>
       <div class="prose">
-        <p>zenops is a personal and team operations framework built around one core idea: systems are living things to tend to, not machines to optimise.</p>
-<p>it grew out of frustration with ops culture that treats infrastructure like a performance problem that is always tuning, always scaling, and always chasing optimal output. zenops is the opposite being that it is slow, deliberate, and human.</p>
-<h2>principles</h2>
-<p><strong>tend, don&#39;t optimise.</strong> optimisation implies a finish line. tending implies ongoing care. a garden is never &quot;optimised&quot;: it is watered, pruned, observed, and slightly adjusted. your systems deserve this same relationship, nurture them as you would your plants.</p>
-<p><strong>boring is good.</strong> boring systems are predictable, predictable systems are trustworthy, and trustworthy systems help you sleep. choose the dull tool that works over the exciting tool that might let you down.</p>
-<p><strong>observable over clever.</strong> if you can&#39;t read what your system is doing at a glance, it is too clever. plain logs, clear handoffs, legible runbooks. a system that only its author understands is a liability.</p>
-<p><strong>deliberate pacing.</strong> not everything needs to happen now. a change that can wait until the next morning probably should. remember: urgency is often a feeling, not a fact.</p>
-<p><strong>clear handoffs.</strong> whether handing off to a teammate or to your future self, leave the system in a state that requires no explanation. write the note, update the doc, and close the loop.</p>
-<h2>in practice</h2>
-<p>on my own machines this looks like:</p>
-<ul>
-<li>flat dotfiles, commented and dated</li>
-<li>a single <code>~/bin/</code> for personal scripts, each one doing one thing</li>
-<li>a <a href="zettelmind.html">zettelmind</a> for operational notes and runbooks</li>
-<li>git for everything, even my configs</li>
-</ul>
-<p>on a team it looks like:</p>
-<ul>
-<li>runbooks, changelogs, or incident reports written at the time of the incident, not after</li>
-<li>on-call rotations that respect human time</li>
-<li>workflow post-mortems (removing dead or superfluous workflows)</li>
-<li>deploys that are boring on purpose in that they are dead simple</li>
-</ul>
-<h2>roots</h2>
-<p>zenops sits inside the broader <a href="soft-stack-ecology.html">soft stack ecology</a> framework alongside <a href="tool-farming.html">tool farming</a> and <a href="soft-circuits.html">soft circuits</a>. it is the ops expression of the same philosophies: care-driven, human-scale, and repairable.</p>
-<p>the name is deliberate, zen not as aesthetic but as one&#39;s disposition in being present, unhurried, and attentive to what is actually there.</p>
+        <p>the operational sub-system of <a href="soft-stack-ecology.html">soft stack ecology</a>: calm, boring, and observable. i treat systems as things to tend, not optimize, with deliberate pacing, clear handoffs, and legible runbooks. the goal is a mature, self-sustaining climax system. boring is the goal.</p>
+<p>i borrow from zen not as aesthetic but as method, the practice of returning attention to what is actually in front of me, repeatedly, without drama.</p>
+<p>boring by design. if my alerts fire rarely and mean something, my logs are legible, and my runbooks exist and are accurate, that is success. if a system needs a hero to keep it running, it has already failed.</p>
+<p>observable over clever. a system i can watch is a system i can tend. cleverness, the elegant abstraction and the tight hack, is often opacity in disguise.</p>
+<p>tend, don&#39;t optimise. optimisation implies a finish line. tending implies ongoing care. a garden is never optimised; it is watered, pruned, observed, and slightly adjusted.</p>
+<p>deliberate pacing. not everything needs to happen now. a change that can wait until the next morning probably should. urgency is often a feeling, not a fact.</p>
+<p>in practice: <a href="boom.html">boom</a> has a history file i can read in a text editor. <a href="rssprint.html">rssprint</a> has no dependencies to rot. <a href="audiovis.html">audiovis</a> is a shell script i can open and understand in five minutes. these are zenops artifacts.</p>
 
       </div>
       <div class="backlinks">
         <h3 class="backlinks-title">linked from</h3>
         <ul>
-          <li><a href="soft-circuits.html">soft circuits</a></li>
+          <li><a href="boom.html">boom</a></li>
+          <li><a href="maintenance.html">maintenance over innovation</a></li>
           <li><a href="soft-stack-ecology.html">soft stack ecology</a></li>
           <li><a href="succession-ecology.html">succession ecology</a></li>
+          <li><a href="sufficiency.html">sufficiency</a></li>
           <li><a href="tool-farming.html">tool farming</a></li>
           <li><a href="zettelmind.html">zettelmind</a></li>
         </ul>
@@ -94,23 +77,23 @@
     <details open>
       <summary>tags</summary>
       <div class="tag-cloud">
-    <a class="tag-chip" href="tags/aesthetics.html">aesthetics <span class="tag-count">1</span></a>
+    <a class="tag-chip" href="tags/aesthetics.html">aesthetics <span class="tag-count">3</span></a>
     <a class="tag-chip" href="tags/almanac.html">almanac <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/communication.html">communication <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/decentralisation.html">decentralisation <span class="tag-count">2</span></a>
     <a class="tag-chip" href="tags/digital-garden.html">digital-garden <span class="tag-count">2</span></a>
-    <a class="tag-chip" href="tags/ecology.html">ecology <span class="tag-count">7</span></a>
+    <a class="tag-chip" href="tags/ecology.html">ecology <span class="tag-count">11</span></a>
     <a class="tag-chip" href="tags/low-tech.html">low-tech <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/nvim.html">nvim <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/ops.html">ops <span class="tag-count">1</span></a>
-    <a class="tag-chip" href="tags/philosophy.html">philosophy <span class="tag-count">13</span></a>
+    <a class="tag-chip" href="tags/philosophy.html">philosophy <span class="tag-count">16</span></a>
     <a class="tag-chip" href="tags/rhizome.html">rhizome <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/slow-web.html">slow-web <span class="tag-count">2</span></a>
     <a class="tag-chip" href="tags/social-media.html">social-media <span class="tag-count">1</span></a>
     <a class="tag-chip" href="tags/solar.html">solar <span class="tag-count">2</span></a>
     <a class="tag-chip" href="tags/solarpunk.html">solarpunk <span class="tag-count">2</span></a>
-    <a class="tag-chip" href="tags/sse.html">sse <span class="tag-count">14</span></a>
-    <a class="tag-chip" href="tags/tools.html">tools <span class="tag-count">12</span></a>
+    <a class="tag-chip" href="tags/sse.html">sse <span class="tag-count">23</span></a>
+    <a class="tag-chip" href="tags/tools.html">tools <span class="tag-count">22</span></a>
     <a class="tag-chip" href="tags/zettelkasten.html">zettelkasten <span class="tag-count">2</span></a>
   </div>
     </details>

@@ -6,33 +6,18 @@ tags: [solarpunk, solar, low-tech, slow-web, ecology, decentralisation, sse, alm
 links: [solarsocial, soft-stack-ecology, tool-farming]
 ---
 
-the solarpunk web is a loose constellation of practices, projects, and philosophies aimed at making the internet slower, smaller, and more ecologically honest.
+a loose constellation of practices, projects, and philosophies aimed at making the internet slower, smaller, and more ecologically honest. not just green hosting or greenwashing, but a different logic entirely.
 
-not just green hosting, or greenwashing, but a different *logic* entirely.
+personal anchors:
 
-## my personal anchors
+- <a href="https://solar.lowtechmagazine.com" target="_blank" rel="noopener">solar low-tech magazine</a>: solar-powered server, dithered images, design as constraint. the canonical example of solar web practice.
+- <a href="https://spalmanac.surge.sh" target="_blank" rel="noopener">solarpunk almanac</a>: my own curated list-as-object, almanac aesthetic, no tracking, json-backed static site. another plot in a small garden, not a feed.
+- <a href="https://solarprotocol.net" target="_blank" rel="noopener">solar protocol</a>: a network focused on energy and human-centred design.
 
-- [solar low-tech magazine](https://solar.lowtechmagazine.com) — solar-powered server, dithered images, design as constraint. the canonical example of solar web practice.
-- [solarpunk almanac](https://spalmanac.surge.sh) - my own curated list-as-object, almanac aesthetic, no tracking, JSON-backed static site. it is another plot in a small garden, not a feed.
-- [solar protocol](https://solarprotocol.net) - a network focused on energy and human-centred design.
+design as an ecological act. low-tech magazine's approach: dithered images reduce page weight and the site's background colour reflects current battery level. the interface becomes a weather report. this is a design principle worth carrying: let environmental conditions be legible in the system itself.
 
-## design as an ecological act
+[[soft-stack-ecology]] and the solarpunk web share ground: small, repairable, and local-first systems, tools that improve livelihoods without extracting from them, and convivial technology in ivan illich's sense.
 
-low-tech magazine's approach: dithered images reduce page weight; the site's background colour reflects current battery level. **the interface becomes a weather report**.
+further reading: <a href="https://yunohost.org" target="_blank" rel="noopener">yunohost</a>, self-hosting for humans.
 
-this is a design principle worth carrying: let environmental conditions be legible in the system itself.
-
-## overlap with sse
-
-[[soft-stack-ecology]] and the solarpunk web share ground:
-- small, repairable, and local-first systems
-- tools that improve livelihoods without extracting from them
-- **convivial technology** (in ivan illich's sense)
-
-the {s}low-tech arm of sse is essentially solarpunk web practice applied to personal tooling.
-
-## further reading
-
-- [yunohost](https://yunohost.org) — self-hosting for humans
-
-→ see also: [[solarsocial]]
+see also: [[solarsocial]]
