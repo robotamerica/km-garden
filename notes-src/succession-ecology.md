@@ -8,6 +8,6 @@ links: [zenops, soft-stack-ecology, ecotonal-practice]
 
 ecosystems move through stages: pioneer (fast-growing, opportunistic, high disturbance tolerance) to intermediate to climax community (stable, complex, self-sustaining, slow to change).
 
-[[zenops]] uses this as a framework -- tending systems toward stable climax states rather than perpetual pioneer-phase churn. most tech culture is stuck in pioneer mode by design: always clearing ground, never letting the forest mature.
+[[zenops]] uses this as a framework, focusing on tending systems toward stabile states rather than perpetual pioneer-phase churning. most tech culture is stuck in pioneer mode by design: always clearing ground, never letting the forest mature.
 
-the goal is a climax system: self-sustaining, legible, low-maintenance, boring.
+the goal is a climax system: self-sustaining, legible, low-maintenance, and a little boring or predictable.
