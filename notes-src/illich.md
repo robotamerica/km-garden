@@ -3,7 +3,7 @@ id: illich
 title: ivan illich
 date: 2026-03-18
 tags: [philosophy, tools]
-links: [conviviality, soft-stack-ecology, tool-farming, sufficiency]
+links: [conviviality, soft-stack-ecology, tool-farming, sufficiency, lineage]
 ---
 
 my closest single intellectual ancestor. tools for conviviality (1973). argues that tools beyond a threshold of complexity begin to undermine the purpose they claim to serve, and he calls this counterproductivity. a hospital system that makes people sicker. a transport system that consumes more time than it saves.
