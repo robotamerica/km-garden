@@ -2,7 +2,7 @@
 id: plot-notes
 title: plot notes
 date: 2026-03-19
-tags: [meta, garden]
+tags: [philosophy]
 links: [jot-ecology, philosophy]
 ---
 

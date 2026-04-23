@@ -2,7 +2,7 @@
 id: jot-ecology
 title: jot ecology
 date: 2026-03-19
-tags: [meta, garden]
+tags: [philosophy, digital-garden]
 links: [plot-notes]
 ---
 
