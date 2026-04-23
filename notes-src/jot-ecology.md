@@ -2,8 +2,8 @@
 id: jot-ecology
 title: jot ecology
 date: 2026-03-19
-tags: [philosophy, digital-garden]
-links: [plot-notes]
+tags: [philosophy, digital-garden, zettelkasten]
+links: [plot-notes, zettelmind]
 ---
 
 jot [ecology] is a simple [philosophy] and framework of creating several personalised field notebooks or journals consisting of small notes. each note is a personal reflection that is no longer than a few sentences. 

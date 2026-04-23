@@ -2,8 +2,8 @@
 id: plot-notes
 title: plot notes
 date: 2026-03-19
-tags: [philosophy]
-links: [jot-ecology, philosophy]
+tags: [philosophy, zettelkasten]
+links: [jot-ecology, philosophy, zettelmind]
 ---
 
 a part of my philosophy of writing, plot notes are diagramatic or organised into larger chunks of writing and thought beyond the smaller jotted notes. 
